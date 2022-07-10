@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		344D443D287AFCB700573430 /* PracticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344D443C287AFCB700573430 /* PracticeController.swift */; };
+		344D443F287B080600573430 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344D443E287B080600573430 /* UserInformation.swift */; };
+		344D4441287B0E6100573430 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344D4440287B0E6100573430 /* DatePickerViewController.swift */; };
+		344D4443287B17CD00573430 /* SignUpFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344D4442287B17CD00573430 /* SignUpFirstViewController.swift */; };
+		344D4445287B1E4600573430 /* SignUpSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344D4444287B1E4600573430 /* SignUpSecondViewController.swift */; };
+		344D4447287B1E5300573430 /* SignUpThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344D4446287B1E5300573430 /* SignUpThirdViewController.swift */; };
+		344D4449287B1E8400573430 /* UserRegisterInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344D4448287B1E8400573430 /* UserRegisterInformation.swift */; };
 		34A1B66B287AD6C800D0F355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A1B66A287AD6C800D0F355 /* AppDelegate.swift */; };
 		34A1B66D287AD6C800D0F355 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A1B66C287AD6C800D0F355 /* SceneDelegate.swift */; };
 		34A1B66F287AD6C800D0F355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A1B66E287AD6C800D0F355 /* ViewController.swift */; };
@@ -17,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		344D443C287AFCB700573430 /* PracticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeController.swift; sourceTree = "<group>"; };
+		344D443E287B080600573430 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
+		344D4440287B0E6100573430 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		344D4442287B17CD00573430 /* SignUpFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFirstViewController.swift; sourceTree = "<group>"; };
+		344D4444287B1E4600573430 /* SignUpSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSecondViewController.swift; sourceTree = "<group>"; };
+		344D4446287B1E5300573430 /* SignUpThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpThirdViewController.swift; sourceTree = "<group>"; };
+		344D4448287B1E8400573430 /* UserRegisterInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterInformation.swift; sourceTree = "<group>"; };
 		34A1B667287AD6C800D0F355 /* Ch2_SignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ch2_SignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A1B66A287AD6C800D0F355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34A1B66C287AD6C800D0F355 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +53,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		344D444A287B1E9100573430 /* PJ */ = {
+			isa = PBXGroup;
+			children = (
+				344D4448287B1E8400573430 /* UserRegisterInformation.swift */,
+				344D4442287B17CD00573430 /* SignUpFirstViewController.swift */,
+				344D4444287B1E4600573430 /* SignUpSecondViewController.swift */,
+				344D4446287B1E5300573430 /* SignUpThirdViewController.swift */,
+			);
+			path = PJ;
+			sourceTree = "<group>";
+		};
 		34A1B65E287AD6C800D0F355 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +83,15 @@
 		34A1B669287AD6C800D0F355 /* Ch2_SignUp */ = {
 			isa = PBXGroup;
 			children = (
+				344D444A287B1E9100573430 /* PJ */,
 				34A1B66A287AD6C800D0F355 /* AppDelegate.swift */,
 				34A1B66C287AD6C800D0F355 /* SceneDelegate.swift */,
-				34A1B66E287AD6C800D0F355 /* ViewController.swift */,
 				34A1B670287AD6C800D0F355 /* Main.storyboard */,
+				344D443E287B080600573430 /* UserInformation.swift */,
+				34A1B66E287AD6C800D0F355 /* ViewController.swift */,
 				34A1B67E287ADEDE00D0F355 /* SecondViewController.swift */,
+				344D443C287AFCB700573430 /* PracticeController.swift */,
+				344D4440287B0E6100573430 /* DatePickerViewController.swift */,
 				34A1B673287AD6CA00D0F355 /* Assets.xcassets */,
 				34A1B675287AD6CA00D0F355 /* LaunchScreen.storyboard */,
 				34A1B678287AD6CA00D0F355 /* Info.plist */,
@@ -142,9 +171,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				34A1B67F287ADEDE00D0F355 /* SecondViewController.swift in Sources */,
+				344D443F287B080600573430 /* UserInformation.swift in Sources */,
+				344D4441287B0E6100573430 /* DatePickerViewController.swift in Sources */,
+				344D4449287B1E8400573430 /* UserRegisterInformation.swift in Sources */,
 				34A1B66F287AD6C800D0F355 /* ViewController.swift in Sources */,
+				344D4445287B1E4600573430 /* SignUpSecondViewController.swift in Sources */,
+				344D443D287AFCB700573430 /* PracticeController.swift in Sources */,
+				344D4447287B1E5300573430 /* SignUpThirdViewController.swift in Sources */,
 				34A1B66B287AD6C800D0F355 /* AppDelegate.swift in Sources */,
 				34A1B66D287AD6C800D0F355 /* SceneDelegate.swift in Sources */,
+				344D4443287B17CD00573430 /* SignUpFirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
