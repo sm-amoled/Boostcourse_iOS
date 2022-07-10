@@ -31,6 +31,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     // MARK: AVAudioPlayerDelegate
+    // Audio Player의 Delegate로 등록되어있으므로, 변화가 있을 때 이 코드를 찾아 수행함.
     func audioPlayerDecodeErrorDidOccur(_ player: AVAudioPlayer, error: Error?) {
         guard let error: Error = error else {
             print("오디오 플레이어 디코드 오류 발생")
@@ -66,6 +67,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
         do {
             try self.player = AVAudioPlayer(data: soundAsset.data)
+            // audio player의 delegate 역할을 본 코드가 수행한다.
             self.player.delegate = self
         } catch let error as NSError {
             print("플레이어 초기화 실패함")
