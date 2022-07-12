@@ -73,6 +73,17 @@ class SignUpSecondViewController: UIViewController, UITextFieldDelegate, PHPicke
         UserRegisterInformation.shared.id = idTextField.text
         UserRegisterInformation.shared.password = pwTextField.text
         UserRegisterInformation.shared.description = descriptionTextField.text
+        
+        guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "secondInfoViewController") else { return }
+        self.navigationController?.pushViewController(viewController, animated: true)
+    }
+    
+    @IBAction func cancelButtonTapped() {
+        UserRegisterInformation.shared.id = nil
+        UserRegisterInformation.shared.password = nil
+        UserRegisterInformation.shared.description = nil
+        
+        self.navigationController?.popViewController(animated: true) // 이전 화면으로 가기
     }
     
     @objc func tapView(gestureRecognizer: UIGestureRecognizer) {

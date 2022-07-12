@@ -28,7 +28,7 @@ class PracticeController: UIViewController, UIImagePickerControllerDelegate, UIN
         print("Tapped")
     }
     
-    // MARK: UIImagePicker
+    // MARK:- UIImagePicker
     lazy var imagePicker: UIImagePickerController = {
         let picker: UIImagePickerController = UIImagePickerController()
         

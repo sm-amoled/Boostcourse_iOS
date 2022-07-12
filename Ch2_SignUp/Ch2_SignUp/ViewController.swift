@@ -40,7 +40,4 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         self.view.endEditing(true)
         return true
     }
-    
-    
 }
-
